@@ -1,3 +1,4 @@
+
 const questions = [
     {
       question: "An Informal Gathering occurs when a group of people get together in a casual, relaxed manner. Which situation below is the best example of an Informal Gathering?",
@@ -68,3 +69,4 @@ const questions = [
   const submitButton = document.getElementById("submit");
   submitButton.addEventListener("click", submitAnswer);
   
+

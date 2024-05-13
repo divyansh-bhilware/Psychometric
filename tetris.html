@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang='en'>
- 
 <head>
     <meta charset='UTF-8'>
     <style>
@@ -10,6 +9,7 @@
             left: 50%;
             width: 600px;
             height: 600px;
+
             margin: -320px 0 0 -320px;
         }
     </style>
@@ -424,6 +424,7 @@
             g.fillStyle = textColor;
             g.font = smallFont;
             g.fillText('hiscore    ' + scoreboard.getTopscore(), scoreX, scoreY);
+
             g.fillText('level      ' + scoreboard.getLevel(), scoreX, scoreY + 30);
             g.fillText('lines      ' + scoreboard.getLines(), scoreX, scoreY + 60);
             g.fillText('score      ' + scoreboard.getScore(), scoreX, scoreY + 90);
